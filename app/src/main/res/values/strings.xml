@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ComposeTesting</string>
+    <string name="welcome_to_title">Welcome to</string>
+    <string name="continue_button">Continue</string>
+    <string name="create_account_title">Create your account</string>
+    <string name="create_account_subtitle">Define your account by setting up your name.</string>
+    <string name="create_account_error_title">Something went wrong</string>
+    <string name="create_account_error_description">Something went wrong while creating your account. Please try again.</string>
+    <string name="retry_button">Retry</string>
+    <string name="create_account_success_title">Account created!</string>
+    <string name="create_account_success_description">Your account has been created and it is ready to be used. Press continue to start.</string>
+    <string name="name_label">Name</string>
+</resources>
