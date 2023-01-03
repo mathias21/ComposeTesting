@@ -3,5 +3,5 @@ object ProjectConfig {
     const val minSdk = 30
     const val targetSdk = 33
 
-    const val androidTestInstrumentation = "com.batcuevasoft.composetesting.ui.HiltTestRunner"
+    const val androidTestInstrumentation = "com.batcuevasoft.composetesting.HiltTestRunner"
 }
