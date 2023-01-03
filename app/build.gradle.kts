@@ -33,10 +33,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
-    sourceSets.all {
-        java.srcDir("src/$name/kotlin")
-    }
-
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -91,21 +87,6 @@ dependencies {
     implementation(Dependencies.hiltAndroid)
     kapt(Dependencies.hiltAndroidCompiler)
     implementation(Dependencies.hiltNavigationCompose)
-
-    implementation(Dependencies.retrofit)
-    implementation(Dependencies.retrofitConverterMoshi)
-    implementation(Dependencies.retrofitKotlinxSerializationConverter)
-    implementation(Dependencies.moshi)
-    implementation(Dependencies.moshiKotlin)
-    implementation(Dependencies.moshiAdapters)
-    implementation(Dependencies.okhttp)
-    implementation(Dependencies.httpInterceptor)
-
-    implementation(Dependencies.kotlinXSerialization)
-
-    implementation(Dependencies.room)
-    implementation(Dependencies.roomKtx)
-    kapt(Dependencies.roomCompiler)
 
     implementation(Dependencies.timber)
 
