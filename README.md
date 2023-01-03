@@ -8,7 +8,7 @@ In order to get Compose working, you have to add a Compose rule. In case of usin
 val composeTestRule = createAndroidComposeRule<MainActivity>()
 ```
 
-Compose is not supporting Junit5 right now ([see issue here](https://github.com/mannodermaus/android-junit5/issues/234)). For now, I will keep Junit4 for this repository. Maybe in the future I can add Junit5 support as well.
+Compose is not supporting Junit5 right now ([see issue here](https://github.com/mannodermaus/android-junit5/issues/234)). For now, I will keep Junit4 for this repository. Be sure that your Instrumentation dependencies are using Junit4 (you can still use Junit5 for your unit tests). Maybe in the future I can add Junit5 support as well.
 
 Dependencies can be found in the [Testing Compose reference](https://developer.android.com/jetpack/compose/testing) or in this repository.
 
