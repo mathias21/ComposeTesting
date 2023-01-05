@@ -1,7 +1,7 @@
 # ComposeTesting
 This project is intended to demonstrate how to do instrumented tests with the default Android tooling, including Compose, Jetpack Navigation and Hilt. As always, Google documentation is not really supporting the standard Android development environment, so I think it is good to have some extra guidelines to be able to instrument tests with the default tools. 
 
-## Compose testing
+## Compose
 In order to get Compose working, you have to add a Compose rule. In case of using Hilt, you also need to specify the execution order. As we will be testing ViewModel injected by Hilt based on activity lifecycle, we need to use an AndroidComposeRule with an activity.   
 ```
 @get:Rule(order = 2)
